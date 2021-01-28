@@ -1,6 +1,6 @@
-Developed by FireBreath15 (xFyreWolfx)
+Developed by FireBreath15 (Cynicalvoe)
 All Rights Reserved. 2016 - 2018.
-License v1.6; Last modified May 15, 2018.
+License v1.7; Last modified October 19, 2018.
 
 THIS IS A LICENSE AGREEMENT BETWEEN THE USER AND SOFTWARE DEVELOPER. BY USING THIS SOFTWARE OR ANY OF ITS COMPONENETS, YOU HEREBY AGREE TO BE BOUND BY THIS AGREEMENT AND THE TERMS AND CONDITIONS WITHIN. THIS LICENSE AGREEMENT IS SUBJECT TO CHANGE PROMPTLY AND WITHOUT NOTICE.
 
@@ -97,5 +97,9 @@ Upon purchase of this software, your public PayPal information is kept in accord
 
 If you are under the age of sixteen (16), your parent or guardian must provide consent for the above terms. By using this software on your Minecraft server, you agree to these privacy terms,
 and have given consent (or have attained parental consent) to have this data retained for 12 months or less, and hereby understand that data older than 12 months will be deleted. 
-	
-	
+
+
+[Section 7 - Effective October 19, 2018]
+As of October 19, 2018, this software has entered its maturity stage, and further development/maintenance is not guaranteed in accordance with Section 2.1 and Section 3 of this Agreement. The customer, having
+purchased this software, retains the rights and limitations herein described. Data collection has been disabled, and will no longer collect server information. Any violation of this Agreement by the customer
+is still subject to legal action.

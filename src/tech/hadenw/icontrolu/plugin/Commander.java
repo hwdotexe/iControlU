@@ -12,7 +12,6 @@ public class Commander implements CommandExecutor{
 	private iControlU plugin;
 	public Commander(iControlU c){
 		plugin=c;
-		plugin.setUURL("?u=%%__USER__%%");
 	}
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
