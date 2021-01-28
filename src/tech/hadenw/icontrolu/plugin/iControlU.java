@@ -2,7 +2,6 @@ package tech.hadenw.icontrolu.plugin;
 
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Base64;
 import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -34,7 +33,6 @@ public class iControlU extends JavaPlugin implements Listener{
 	private boolean updateAvailable;
 	private boolean isPLIB;
 	private ProtocolManager pm;
-	private String uURL;
 	
 	public void onEnable(){
 		if(this.getServer().getPluginManager().isPluginEnabled("ProtocolLib")){
@@ -53,9 +51,6 @@ public class iControlU extends JavaPlugin implements Listener{
 			
 			if(config.getUseRecipes())
 				this.registerrecipes();
-			
-			new MetricsLite(this);
-			new DRM();
 		}else{
 			this.getLogger().log(Level.SEVERE, "ProtocolLib is required to run iControlU! It can be downloaded from https://www.spigotmc.org/resources/protocollib.1997/");
 			isPLIB = false;
@@ -96,18 +91,7 @@ public class iControlU extends JavaPlugin implements Listener{
 	public Messages getMessages(){
 		return msg;
 	}
-	
-	public String getUURL() {
-		return uURL;
-	}
-	
-	public void setUURL(String a) {
-		uURL = uURL+a;
-	}
-	
 	private boolean checkUpdate() {
-		uURL = new String(Base64.getDecoder().decode("aHR0cDovL2RybS5oYWRlbncudGVjaC9wbHVnaW4vY2hlY2svaWN1L3ZhbGlkYXRl".getBytes()));
-		
 		if(this.getConfiguration().getCheckForUpdates()) {
 			this.getLogger().log(Level.INFO, "Checking for updates...");
 			
